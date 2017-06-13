@@ -7,6 +7,11 @@ var sass = require('gulp-sass')
 var gulp = require('gulp');
 var path = require('path2');
 var header = require('gulp-header');
+var del = require('del');
+var gutil = require('gulp-util');
+var plumber = require('gulp-plumber');
+var sourcemaps = require('gulp-sourcemaps');
+var rename = require('gulp-rename');
 
 var
     packageFile = 'package.json',
@@ -14,6 +19,7 @@ var
     paths = {
         scripts: ['src/scripts/**/*.js'],
         sass: ['src/styles/**/*.scss'],
+        bootsass: ['node_modules/bootstrap-v4-dev/scss/bootstrap.scss'],
         docs: ['src/docs/**/*.md'],
         dist: ['dist/**/*']
     },
@@ -34,6 +40,16 @@ var
         "*/\n";
 
 gulp.task('default', ['watch']);
+
+gulp.task('styles', function () {
+    return gulp.src(paths.bootsass)
+        .pipe(plumber())
+        .pipe(sass())
+        .pipe(postcss([autoprefixer]))
+        .pipe(postcss([flexfixer]))
+        .pipe(header(banner, { pkg: pkg }))
+        .pipe(gulp.dest('dist/assets/styles'));
+});
 
 gulp.task('config', function () {
     fs = require("fs2");
@@ -66,7 +82,7 @@ gulp.task('build-js', function () {
     return gulp.src(paths.scripts)
         .pipe(sourcemaps.init())
         .pipe(header(banner, { pkg: pkg }))
-        .pipe(concat('jQuery.SPGizmos-' + pkg.version + '.js'))
+        .pipe(concat('jQuery.SPSTools-' + pkg.version + '.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/assets/javascript'));
 });
@@ -74,4 +90,5 @@ gulp.task('build-js', function () {
 // configure which files to watch and what tasks to use on file changes
 gulp.task('watch', function () {
     gulp.watch('src/styles/**/*.scss', ['build-css']);
+    //gulp.watch('node_modules/bootstrap-v4-dev/scss/bootstrap.scss', ['styles']);
 });
