@@ -32,11 +32,30 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="server.js" />
+    <Compile Include="src\layouts\helpers\icon.js" />
+    <Compile Include="src\layouts\helpers\includes.js" />
+    <Compile Include="src\layouts\helpers\is_active.js" />
+    <Compile Include="src\layouts\helpers\is_active_with_ancestor.js" />
+    <Compile Include="src\layouts\helpers\relative_path.js" />
     <Compile Include="src\scripts\base.js">
       <SubType>Code</SubType>
     </Compile>
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\index.md" />
+    <Content Include="src\layouts\main.hbs" />
+    <Content Include="src\layouts\partials\breadcrumbs.hbs" />
+    <Content Include="src\layouts\partials\child_doc_links.hbs" />
+    <Content Include="src\layouts\partials\child_webservice_links.hbs" />
+    <Content Include="src\layouts\partials\default.hbs" />
+    <Content Include="src\layouts\partials\docs_parent.hbs" />
+    <Content Include="src\layouts\partials\footer.hbs" />
+    <Content Include="src\layouts\partials\frontpage.hbs" />
+    <Content Include="src\layouts\partials\header.hbs" />
+    <Content Include="src\layouts\partials\metadata.hbs" />
+    <Content Include="src\layouts\partials\navbar.hbs" />
+    <Content Include="src\layouts\partials\nav_link.hbs" />
+    <Content Include="src\layouts\partials\nav_link_with_children.hbs" />
     <Content Include="src\styles\alerts.scss">
       <SubType>Code</SubType>
     </Content>
@@ -50,9 +69,13 @@
     <Folder Include="docs\" />
     <Folder Include="docs\assets\" />
     <Folder Include="docs\layouts\" />
+    <Folder Include="docs\layouts\helpers\" />
+    <Folder Include="docs\layouts\partials\" />
     <Folder Include="src\" />
     <Folder Include="src\html\" />
-    <Folder Include="src\docs\" />
+    <Folder Include="src\layouts\" />
+    <Folder Include="src\layouts\helpers\" />
+    <Folder Include="src\layouts\partials\" />
     <Folder Include="src\scripts\" />
     <Folder Include="src\styles\" />
   </ItemGroup>
