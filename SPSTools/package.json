@@ -11,7 +11,7 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^6.1.2",
     "gulp-cache": "^0.4.6",
-    "gulp-clean-css": "^3.4.1",
+    "gulp-clean-css": "^3.4.2",
     "gulp-concat": "^2.6.1",
     "gulp-eslint": "^4.0.0",
     "gulp-header": "^1.8.8",
@@ -28,7 +28,7 @@
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.4",
     "path2": "^0.1.0",
-    "postcss": "^6.0.1",
+    "postcss": "^6.0.2",
     "postcss-flexbugs-fixes": "^3.0.0"
   },
   "description": "A jQuery library for working with SharePoint",
