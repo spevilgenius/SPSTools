@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="server.js" />
+    <Compile Include="src\scripts\base.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="src\styles\alerts.scss">
@@ -40,9 +43,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
-    <Folder Include="dist\assets\" />
-    <Folder Include="dist\assets\styles\" />
+    <Folder Include="dist\docs\" />
+    <Folder Include="dist\layouts\" />
+    <Folder Include="dist\scripts\" />
+    <Folder Include="dist\styles\" />
+    <Folder Include="docs\" />
+    <Folder Include="docs\assets\" />
+    <Folder Include="docs\layouts\" />
     <Folder Include="src\" />
+    <Folder Include="src\html\" />
+    <Folder Include="src\docs\" />
     <Folder Include="src\scripts\" />
     <Folder Include="src\styles\" />
   </ItemGroup>
