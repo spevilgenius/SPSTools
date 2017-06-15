@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SPServices</title>
+
+    <meta name="description" content="A jQuery library for working with SharePoint including CSOM, REST, and other cool functions.">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body>
+
+    <header class="site-header" id="top">
+      <nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html"><img src="../img/spservices-icon.png" alt="" width="30" height="30"> spstools</a>
+          </div>
+    
+          <div class="collapse navbar-collapse" id="navbar-top">
+            <ul class="nav navbar-nav">
+            </ul>
+    
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="git+https://github.com/spevilgenius/SPSTools.git" title="View on GitHub"><span class="fa fa-fw fa-github" aria-hidden="true"></span> GitHub</a></li>
+              <li><a href="http://spservices.codeplex.com/discussions" title="Discuss on CodePlex"><span class="fa fa-fw fa-comments" aria-hidden="true"></span> Discussions</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<div class="container">
+
+<ol class="breadcrumb">
+    <li>
+        <a href="../../../../../index.html">Home</a>
+    </li>
+    <li>
+            styles
+    </li>
+    <li class="active">
+        
+    </li>
+</ol>
+
+  <div class="row">
+    <main class="col-md-9 col-md-push-3">
+
+
+      ﻿.testing {
+    width: percentage(5/7);
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+}
+
+    </main>
+    <aside class="sidebar-navigation col-md-3 col-md-pull-9 hidden-print hidden-sm hidden-xs">
+          <h2 class="h4">Navigation</h2>
+          <ul class="list-unstyled">
+              <li class="">
+                      <a href="../index.html" title="SPSTools is a jQuery library.">Home</a>
+              
+              </li>
+          </ul>
+    </aside>
+  </div>
+
+  <hr>
+  <p class="text-right"><a href="#top"><span class="fa fa-fw fa-arrow-up" aria-hidden="true"></span> Back to top</a></p>
+</div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p><a href="http://twitter.com/jQSPWS"><span class="fa fa-fw fa-twitter" aria-hidden="true"></span> Twitter</a> | <a href="http://facebook.com/jQSPWS"><span class="fa fa-fw fa-facebook" aria-hidden="true"></span> Facebook</a> | <a href="git+https://github.com/spevilgenius/SPSTools.git"><span class="fa fa-fw fa-github" aria-hidden="true"></span> GitHub</a></p>
+    
+            <p>&copy; 2017 Daniel Walker | Licensed <a href=""></a></p>
+          </div>
+          <div class="col-sm-6">
+            <p>Like SPServcices? Please support my work; this is my hobby.</p>
+    
+            <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=2ZQS4LK7CT6DW&amp;lc=US&amp;item_name=Sympraxis%20Consulting%20LLC&amp;item_number=SPServices&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate to SPServices" border="0"></a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js"></script>
+    <script src="/scripts/base.js"></script>
+  </body>
+</html>
