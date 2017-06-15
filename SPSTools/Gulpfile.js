@@ -48,7 +48,7 @@ gulp.task('styles', function () {
         .pipe(postcss([autoprefixer]))
         .pipe(postcss([flexfixer]))
         .pipe(header(banner, { pkg: pkg }))
-        .pipe(gulp.dest('dist/assets/styles'));
+        .pipe(gulp.dest('dist/styles'));
 });
 
 gulp.task('config', function () {
