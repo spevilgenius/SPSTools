@@ -89,8 +89,25 @@ body {
   padding: 2em 0 1em;
 }
 
+.nopadding { padding: 0; }
+
 [class^="col"] {
     background: rgba(152, 214, 245, 0.73);
     border: 1px solid rgba(86,61,124,.2);
-    min-height: 50px;
+    min-height: 200px;
+    display: flex;
+    align-items: stretch;
+    padding: 0;
 }
+
+.box {
+    margin: 10px;
+    align-self: stretch;
+    width: 100%;
+}
+
+.green { background-color: green; }
+.red { background-color: red; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+.orange { background-color: orange; }
